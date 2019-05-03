@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
     template: `
     <StackLayout>
         <Label text="I am outer-header-text!"></Label>
-        <router-outlet name="inner-outlet"></router-outlet>
+        <page-router-outlet name="inner-outlet" actionBarVisibility="never"></page-router-outlet>
     </StackLayout>
     `
 })
